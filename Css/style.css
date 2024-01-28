@@ -7,10 +7,28 @@
 }
 
 body {
-    height: 100vh;
+    
     box-sizing: border-box;
-    background-color: black;
+    background-color: #000000;
     color: #f6f6f6;
+}
+
+.cabecalho {
+   padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
 }
 
 .destaque-azul {
@@ -18,7 +36,7 @@ body {
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,4 +90,18 @@ body {
     text-decoration: none;
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links__link:hover {
+      background-color: #272727;
+}
+
+.rodape {
+    padding: 24px;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+
 }
